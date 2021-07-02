@@ -1,4 +1,4 @@
-# RN Incoming Call Version 2
+# RN Incoming Call
 
 > React Native module to display custom incoming call activity, best result when using with firebase background messaging. Only for Android since iOS we have VoIP.
 
@@ -129,6 +129,8 @@ messaging().setBackgroundMessageHandler(async remoteMessage => {
 ### Incoming screen not show on android > 9:
 
 You need to turn on autostart and display pop-up windows permissions manually. I'm searching for a better solution.
+
+For this case, use this library: https://www.npmjs.com/package/rn-android-overlay-permission
 
 ### No vibration when screen locked:
 
